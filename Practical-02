@@ -1,0 +1,11 @@
+lab_5 = input("Is Lab 5 dirty? (yes/no): ").lower()
+lab_6 = input("Is Lab 6 dirty? (yes/no): ").lower()
+if lab_5=="yes":
+ print("Cleaning Lab 5.. ")
+else:
+    print("Lab 5 is already clean.")
+if lab_6=="yes":
+ print("Cleaning Lab 6.. ")
+else:
+    print("Lab 6 is already clean.")
+print("Cleaning process complete.")   
