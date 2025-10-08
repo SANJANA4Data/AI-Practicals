@@ -1,0 +1,7 @@
+is_daylight_there = input("Is daylight there yes/no").lower()
+is_human_there = input("Is human present yes/no").lower()
+if is_daylight_there =='no' and is_human_there=='yes':
+    print("LIGHT ON")
+else:
+    print("LIGHT OFF")
+   
